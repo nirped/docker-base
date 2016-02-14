@@ -1,5 +1,5 @@
 # AlpineLinux with a glibc-2.21 and Oracle Java 8
-FROM java
+FROM nirped/docker-java
 
 # Java Version and other ENV
 ENV PATH=${PATH}:/opt/confd
